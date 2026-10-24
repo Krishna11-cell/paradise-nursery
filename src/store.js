@@ -1,1 +1,1 @@
-import{configureStore}from'@reduxjs/toolkit';import cartReducer from'./features/CartSlice.js';export const store=configureStore({reducer:{cart:cartReducer}});
+import{configureStore}from'@reduxjs/toolkit';import cartReducer from'./features/CartSlice.jsx';export const store=configureStore({reducer:{cart:cartReducer}});
